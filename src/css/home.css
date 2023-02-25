@@ -58,7 +58,7 @@
   background: #0b0e11;
 }
 
-.top_restaurant_frame .category_title {
+.homepage .category_title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -68,7 +68,7 @@
 }
 
 .top_restaurant_frame .card_class:hover {
-  transform: scale(1.05);
+  transform: scale(1.04);
 }
 
 .top_restaurant_frame .card_one,
@@ -76,4 +76,24 @@
 .top_restaurant_frame .card_three,
 .top_restaurant_frame .card_four {
   transition: all 0.4s ease 0s;
+}
+
+/**** BEST RESTAURANTS STYLES ****/
+.best_restaurant_frame {
+  width: 100%;
+  height: 755px;
+  display: flex;
+  background: #0b0e11;
+}
+
+.best_restaurant_frame .card_class:hover img {
+  transform: scale(1.07);
+}
+
+.best_restaurant_frame .card_class img {
+  transition: all 0.4s ease 0s;
+}
+
+.best_restaurant_frame .card_class .card_img {
+  overflow: hidden;
 }
