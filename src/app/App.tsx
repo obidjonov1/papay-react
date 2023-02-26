@@ -18,6 +18,7 @@ import { Footer } from "./components/footer";
 
 function App() {
   const [path, setPath] = useState();
+  // pastdagi switch(route)ga === bo'lsa o'sha manzilga yuboradi
   const main_path = window.location.pathname;
 
   return (

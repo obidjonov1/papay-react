@@ -20,7 +20,6 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 
 // cardlarni ko'paytirish uchun-> 
 const order_list = Array.from(Array(8).keys());
-console.log(order_list);
 
 export function AllRestaurants() {
   return (
@@ -78,6 +77,7 @@ export function AllRestaurants() {
                         variant="solid"
                         color="neutral"
                         onClick={(e) => {
+                          // like bosilsa restaurantga kirib ketishni oldini oladi ->
                           e.stopPropagation();
                         }}
                         sx={{
