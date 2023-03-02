@@ -3,7 +3,7 @@ import TabPanel from "@mui/lab/TabPanel";
 import { Box, Stack } from "@mui/material";
 
 const finishedOrders = [
-  [1, 2, 3],
+  [1, 2, 3, 4, 5, 6],
   [1, 2, 3],
 ];
 
