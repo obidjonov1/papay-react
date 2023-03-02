@@ -12,7 +12,7 @@ import Marginer from "../../components/marginer";
 import Checkbox from "@mui/material/Checkbox";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 
-const chosen_list = Array.from(Array(3).keys());
+const chosen_list = Array.from(Array(6).keys());
 
 export function ChosenDish() {
   const label = { inputProps: { "aria-label": "Checkbox demo" } };
