@@ -24,7 +24,7 @@ export function VisitMyPage(props: any) {
   /** INITIALIZATIONS **/
   const [value, setValue] = useState("5");
 
-  /** HANDLERS **/
+  /** HANDLER **/
   const handleChange = (event: any, newValue: string) => {
     setValue(newValue);
   };

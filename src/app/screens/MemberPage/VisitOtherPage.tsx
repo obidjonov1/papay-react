@@ -17,7 +17,7 @@ export function VisitOtherPage(props: any) {
   /** INITIALIZATIONS **/
   const [value, setValue] = useState("1");
 
-  /** HANDLERS **/
+  /** HANDLER **/
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
   };

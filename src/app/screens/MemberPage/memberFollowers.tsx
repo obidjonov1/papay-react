@@ -36,7 +36,7 @@ export function MemberFollowers(props: any) {
                   className={"following_already"}
                   disabled
                 >
-                  FOLLOWING
+                  following
                 </Button>
               ) : (
                 <Button

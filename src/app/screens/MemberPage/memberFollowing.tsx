@@ -6,7 +6,7 @@ import Button from "@mui/material/Button";
 const followings = [
   { mb_nick: "steve" },
   { mb_nick: "sarvar" },
-  { mb_nick: "martin" },
+  { mb_nick: "john" },
 ];
 
 export function MemberFollowing(props: any) {
