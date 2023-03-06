@@ -39,6 +39,7 @@ export function VisitOtherPage(props: any) {
                 <TabPanel value={"2"}>
                   <Box className={"menu_name"}>Followers</Box>
                   <Box className={"menu_content"}>
+                    {/* "following", "follow back" btn chiqmaydi -> */}
                     <MemberFollowers actions_enabled={false} />
                   </Box>
                 </TabPanel>
